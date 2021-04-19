@@ -1,6 +1,6 @@
 section .data
     msg: db 'ola mundo', 10
-    msg2: dw 'primeiro programa em asm', 10
+    msg2: db 'primeiro programa em asm', 10
 
 section .text
 global _start
