@@ -29,7 +29,7 @@ print:
     mov rsi, valor
     mov rax, 1
     mov rdi, 1
-    mov rdx, 3
+    mov rdx, 1
     syscall
 ret
 
@@ -38,7 +38,7 @@ new_line:
     mov rsi, nova_linha
     mov rax, 1
     mov rdi, 1
-    mov rdx, 3
+    mov rdx, 1
     syscall
 ret
 
